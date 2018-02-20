@@ -17,7 +17,6 @@ At first, install Docker to your system
 # Install darknet
 
   ```
-  WORKDIR/yolo$ cd ..
   WORKDIR$ git clone https://github.com/AlexeyAB/darknet
   ```
 
@@ -36,7 +35,7 @@ At first, install Docker to your system
 # Docker Build
 
   ```
-  WORKDIR/darknet$ cd ../yolo
+  WORKDIR/darknet$ cd ..
   WORKDIR$ git clone git@github.com:cjs0818/yolo.git
   WORKDIR$ cd yolo
   WORKDIR/yolo$ ./docker_build.sh
