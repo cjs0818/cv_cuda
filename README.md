@@ -79,3 +79,33 @@ At first, install Docker to your system
   ```
   
 # cv_cuda
+
+* Docker Build
+  ```
+  WORKDIR$ git clone git@github.com:cjs0818/cv_cuda.git
+  cd cv_cuda
+  ```
+  
+* Execute 'start.sh' file
+
+  ```
+  WORKDIR/cv_cuda$ ./start.sh
+
+  # Compile darknet inside Docker
+  /root/work$ cd /root/work/darknet
+  ```
+
+  # Change the paramater OPENCV=0 into OPENCV=1 in Makefile then compile
+
+  ```
+  /root/work/darknet$ make clean
+  /root/work/darknet$ make
+  ```
+
+  # Test darknet
+  
+  ```
+  /root/work/darknet$ chmod 755 image_voc.sh
+  /root/work/darknet$ ./image_voc.sh
+  ```
+
