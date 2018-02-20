@@ -1,6 +1,7 @@
 #--------------------
 # For CUDA
-FROM jschoi/yolo
+#FROM jschoi/yolo
+FROM nvidia/cuda
 #RUN ls -al
 #--------------------
 
@@ -62,6 +63,7 @@ RUN apt-get update \
 
 RUN apt-get update && apt-get install -y \
     vim \
+    x11-apps \
     build-essential \
     cmake \
     git \
