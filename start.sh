@@ -2,13 +2,13 @@
 # you should do the following first in the other terminal
 # socat TCP-LISTEN:6000,reuseaddr,fork UNIX-CLIENT:\"$DISPLAY\"
 
-OS=OSX
-#OS=Linux
+#OS=OSX
+OS=Linux
 
 
-EN0=en0
+#EN0=en0
 #EN0=enp0s5
-#EN0=enp0s31f6
+EN0=enp0s31f6
 
 
 #-------------

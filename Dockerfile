@@ -34,7 +34,6 @@ ENV OPENCV_VERSION="3.4.0"
 
 #--------------------
 # For OpenCV
-#FROM jjanzic/docker-python3-opencv
 
 # python 3.6
 RUN apt-get update \
