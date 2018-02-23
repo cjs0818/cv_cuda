@@ -37,7 +37,7 @@ At first, install Docker to your system
   WORKDIR/darknet$ cd ..
   WORKDIR$ git clone git@github.com:cjs0818/cv_cuda.git
   cd cv_cuda
-  WORKDIR/yolo$ ./docker_build.sh
+  WORKDIR/cv_cuda$ ./docker_build.sh
   ```
   
 * Change DISPLAY_IP in start.sh according to your system (using ifconfig)
@@ -64,7 +64,7 @@ At first, install Docker to your system
 * Execute 'start.sh' file
 
   ```
-  WORKDIR/yolo$ ./start.sh
+  WORKDIR/cv_cuda$ ./start.sh
 
   # Compile darknet inside Docker
   /root/work$ cd /root/work/darknet
